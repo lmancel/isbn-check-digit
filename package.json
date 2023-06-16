@@ -1,5 +1,5 @@
 {
-  "name": "barcode",
+  "name": "isbn-check-digit",
   "version": "0.0.1",
   "private": true,
   "scripts": {
