@@ -4,6 +4,7 @@ function getMultiplier(index: number): number {
 
 export default function computeCheckDigit(input: string): number {
   const sum = input
+    .trim()
     .replaceAll('-', '')
     .split('')
     .reduce((sum, digit, index) => sum + parseInt(digit) * getMultiplier(index), 0)
