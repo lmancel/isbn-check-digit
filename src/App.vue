@@ -1,19 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import BarcodeInput from './components/BarcodeInput.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <BarcodeInput />
   </main>
 </template>
 
@@ -25,6 +16,15 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+
+main {
+  min-width: 300px;
+  max-width: 800px;
+  width: 80%;
+  background-color: var(--color-container-background);
+  border-radius: 4px;
+  padding: 50px 0;
 }
 
 @media (min-width: 1024px) {
