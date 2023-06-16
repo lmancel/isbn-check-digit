@@ -77,6 +77,6 @@
     }
 
     h1 {
-        color: var(--color-heading)
+        color: var(--color-heading);
     }
 </style>
