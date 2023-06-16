@@ -1,0 +1,3 @@
+const BARCODE_LENGTH = 12
+
+export { BARCODE_LENGTH }
