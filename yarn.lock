@@ -1016,33 +1016,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"barcode@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "barcode@workspace:."
-  dependencies:
-    "@rushstack/eslint-patch": ^1.2.0
-    "@tsconfig/node18": ^2.0.1
-    "@types/jsdom": ^21.1.1
-    "@types/node": ^18.16.17
-    "@vitejs/plugin-vue": ^4.2.3
-    "@vue/eslint-config-prettier": ^7.1.0
-    "@vue/eslint-config-typescript": ^11.0.3
-    "@vue/test-utils": ^2.3.2
-    "@vue/tsconfig": ^0.4.0
-    eslint: ^8.39.0
-    eslint-plugin-vue: ^9.11.0
-    jsdom: ^22.1.0
-    npm-run-all: ^4.1.5
-    prettier: ^2.8.8
-    typescript: ~5.0.4
-    vite: ^4.3.9
-    vitest: ^0.32.0
-    vue: ^3.3.4
-    vue-tsc: ^1.6.5
-    yup: ^1.2.0
-  languageName: unknown
-  linkType: soft
-
 "blueimp-md5@npm:^2.10.0":
   version: 2.19.0
   resolution: "blueimp-md5@npm:2.19.0"
@@ -2626,6 +2599,33 @@ __metadata:
   checksum: 95bd9a57cdcb58c63b1c401c60a474b0f45b94719c30f548c891860f051bc2231575c290a6b420c6bc6e7ed99459d424c652bd5bf9a1d5259505dc35b4bf83de
   languageName: node
   linkType: hard
+
+"isbn-check-digit@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "isbn-check-digit@workspace:."
+  dependencies:
+    "@rushstack/eslint-patch": ^1.2.0
+    "@tsconfig/node18": ^2.0.1
+    "@types/jsdom": ^21.1.1
+    "@types/node": ^18.16.17
+    "@vitejs/plugin-vue": ^4.2.3
+    "@vue/eslint-config-prettier": ^7.1.0
+    "@vue/eslint-config-typescript": ^11.0.3
+    "@vue/test-utils": ^2.3.2
+    "@vue/tsconfig": ^0.4.0
+    eslint: ^8.39.0
+    eslint-plugin-vue: ^9.11.0
+    jsdom: ^22.1.0
+    npm-run-all: ^4.1.5
+    prettier: ^2.8.8
+    typescript: ~5.0.4
+    vite: ^4.3.9
+    vitest: ^0.32.0
+    vue: ^3.3.4
+    vue-tsc: ^1.6.5
+    yup: ^1.2.0
+  languageName: unknown
+  linkType: soft
 
 "isexe@npm:^2.0.0":
   version: 2.0.0
